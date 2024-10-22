@@ -17,7 +17,7 @@ body {
     padding: 20px;
     border-radius: 8px; /* Esquinas redondeadas */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    width: 300px; /* Ancho fijo para la caja */
+    width: 450px; /* Ancho fijo para la caja */
     text-align: center; /* Centrar texto */
 }
 
