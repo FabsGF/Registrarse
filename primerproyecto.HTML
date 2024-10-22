@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<script>
+  function redireccionar() {
+    event.preventDefault(); 
+    window.location.href = "bienvenido.html"; 
+  }
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscar Multas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Multas</h1>
+        <!-- action="bienvenido.html" -->
+        <form id="registration-form" onsubmit="redireccionar(event)">
+            <div>
+                <label for="password">Patente del vehiculo</label>
+                <input type="password" id="password" >
+            </div>
+            <div>
+                <label for="password">DNI</label>
+                <input type="password" id="password" >
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</body>
+</html>
