@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<script>
-  function redireccionar() {
-    event.preventDefault(); 
-    window.location.href = "bienvenido.html"; 
-  }
-</script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="varios.js" defer></script>
     <title>Biblioteca Nacional</title>
 </head>
 <body>
     <div class="container">
         <h1>Registro de Prestamo</h1>
-        <!-- action="bienvenido.html" -->
-        <form id="registration-form" onsubmit="redireccionar(event)">
+        <form id="registration-form">
             <div>
-                <label for="email">Nombre Completo</label>
-                <input type="email" id="email" >
+                <label for="nombre">Nombre Completo</label>
+                <input type="nombre" id="nombre" >
             </div>
             <div>
                 <label for="password">Numero de socio</label>
                 <input type="password" id="password" >
+            </div>
+            <div>
+                <label for="codigolibro">Codigo del Libro</label>
+                <input type="codigolibro" id="codigolibro">
             </div>
             <button type="submit">Buscar</button>
         </form>
